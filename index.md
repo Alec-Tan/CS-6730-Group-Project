@@ -1,6 +1,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lZo73aYslGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="800" height="600" src="https://public.tableau.com/views/MetroAtlantaCountiesFoodinsecurityRankingsfrom2018-2021/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link" frameborder="0" scrolling="no" data-service=“public.tableau”></iframe>
+<iframe width="800" height="600" src="https://public.tableau.com/views/MetroAtlantaCountiesFoodinsecurityRankingsfrom2018-2021/Sheet1?:showVizHome=no&amp;:embed=true" frameborder="0" scrolling="no" data-service=“public.tableau”></iframe>
 
 # 1. Introduction/Background
 Recommendation systems are programs that predict likely suitable matches to a user’s preferences. Content-based filtering and collaborative filtering are two of the major strategies employed. While content-based filtering recommends based on the similarity of products of consumer interest, collaborative filtering develops a recommendation based on the existing ratings of other previous consumers[1,2].
