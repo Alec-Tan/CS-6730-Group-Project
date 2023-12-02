@@ -18,14 +18,6 @@ s
 
 
 # 1. Introduction/Background
-
-
-
-<iframe width="800" height="600" src="https://public.tableau.com/app/profile/autumn.pressley/viz/MetroAtlantaCountiesFoodinsecurityRankingsfrom2018-2021/Sheet1?:showAppBanner=false&:showVizHome=no&:embed=true&:origin=viz_share_link" data-service=“public.tableau”></iframe>
-<iframe src=https://public.tableau.com/app/profile/alec.tan/viz/Book1_17013902158690/Sheet22?:showVizHome=no&amp;:embed=true” width= “600” height=“800” frameborder=“no” scrolling=“no” data-service=“public.tableau”><iframe></iframe>
-
-<iframe width="800" height="600" src="https://public.tableau.com/app/profile/arpit.narechania/viz/GeorgiaTechIEEEVIS2021/Dashboard"></iframe>
-
 <div class='tableauPlaceholder' id='viz1701475078774' style='position: relative'><noscript><a href='#'><img alt='Low Access Population by Race '
                   src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;LowAccessPopulationbyRace&#47;1_rss.png'
                   style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;' width="800" height="600">
