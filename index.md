@@ -2,7 +2,7 @@
 
 s
 
-<div style="margin:1em calc(50% - 50vw);">
+<div style="margin:1em calc(30% - 50vw);">
   <div class='tableauPlaceholder' id='viz1701475078774' style='position: relative'><noscript><a href='#'><img alt='Low Access Population by Race '
                     src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;LowAccessPopulationbyRace&#47;1_rss.png'
                     style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'>
