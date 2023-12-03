@@ -42,6 +42,14 @@ A key step to addressing the issue of food insecurity is raising awareness. This
 
 **Tract:** small, statistical subdivisions of a county used by the US Census to gather data. For our project, tract data was aggregated to be cumulative data sets of the entire county, rather than individual tracts.
 
+# Food Insecurity by County
+Georgia is made up of 159 counties. The counties can be differentiated as rural and urban. 
+The graph below outlines the counties in Georgia that can be identified as rural and urban. As you can see…
+
+[insert graph]
+
+<img src="/images/num_rural_urban.png" width="50%" height="50%">
+
 
 ## 3.1 Preprocessing for User-based Analysis
 The user dataset we extracted contained numeric data (“rating”, “age”) and categorical data (“country”). This made clustering the data more difficult because most unsupervised learning techniques handle only numeric data. The two methods we used to handle our mixed user dataset are Gower distance and one hot encoding.
