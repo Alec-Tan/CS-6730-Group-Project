@@ -48,7 +48,17 @@ The graph below outlines the counties in Georgia that can be identified as rural
 
 [insert graph]
 
+
+# Does living in a rural vs. urban area affect food insecurity in each county?
 <img src="/images/num_rural_urban.png" width="50%" height="50%">
+
+The graph below shows the percent of county populations that are low income and low access, two factors that determine food insecurity. Low access and low income are encoded by saturation of color (darker being higher percentages of low income/access, lighter being lower percentages). Rural and Urban are determined by specific colors (blue for rural and brown for urban).
+
+Taliaferro County, a rural county east of Atlanta, has the highest percentage of food insecurity. Among its 1,717 residents, 47.43% are low income and have low access to food. Chattahoochee County, an urban county southeast of Columbus, has the second highest percentage of food insecurity, as 39.34% of its 11,267 residents are low income and have low access to food. In Georgia, urban residents are more likely to face food insecurity. 11.11% of the urban population is low income and has low access to food, compared to 7.15% of the rural population.
+
+[INSERT GRAPH]
+
+
 
 
 ## 3.1 Preprocessing for User-based Analysis
