@@ -22,12 +22,26 @@ Food insecurity is widespread across the United States, affecting more than 44 m
 
 <img src="/images/num_insecure.png" width="40%" height="40%">
 
-# 3. Data Collection and Cleaning
-From the User Review Rating dataset from Kaggle [6], we were able to access the dataset containing 278,858 users providing 1,149,780 ratings for 271,379 books. Features include information about the book (title, author, year of publication, publisher, image of the book cover), information about the user (age, location), and ratings of the book.
+# How Can We Help?
+A key step to addressing the issue of food insecurity is raising awareness. This project aims to explore the issue of food insecurity here in Georgia, highlighting where there may be food deserts within the state. We aim to explore food insecurity in each county by different variables, demonstrating possible predictors of food insecurity. Our goal in doing so is to provide you with knowledge on this issue, so that we as a community can better advocate for reform and inform others about food insecurity in our own communities. 
 
-The dataset from Kaggle was mostly clean, but there are a few columns that needed to be cleaned. We removed some entries with only a value of 9 from the “Category” and “language” columns in the dataset and dropped entries with a rating of 0 from the “rating” column. The “country” column had entries that were empty or “n/a” which needed to be removed.
+# Terminology to Know
+**Low-Access:** In this dataset, food access can be defined by  the distance to the nearest supermarket, supercenter, or large grocery store. For urban counties, we consider individuals who live more than 1 mile away from the nearest supermarket or grocery store as food insecure. For rural counties, where population density is intrinsically lower and grocery stores are fewer, individuals are considered to be food insecure if they live greater than 10 miles from the nearest food source.  
 
-Preprocessing of our data varied depending on which features and which algorithms were used. We have divided the details of our data preprocessing into multiple sections below.
+**Low-Income:** Low-income counties, as defined by the Department of Treasury’s New Markets Tax Credit (NMTC) program, are those where the poverty rate is 20% or greater, the median family income of the county is less than 80% of the state’s median family income, or the tract is in a metropolitan area and the median family income is less than 80% of the greater metropolitan median family income. 
+
+**Food Desert:** Regions of the country [that] often feature large proportions of households with low incomes, inadequate access to transportation, and a limited number of food retailers providing fresh produce and healthy groceries for affordable prices. [6]
+
+**Poverty Rate:** The proportion of the population in the county that lives below the Federal poverty threshold. 
+
+**Urban:** According to the US Census, to qualify as an urban area, the territory identified according to criteria must encompass at least 2,000 housing units or have a population of at least 5,000.
+
+**Rural:** According to the US Census, all people, housing, and territory that are not within an urban area.
+
+**SNAP:** Supplemental Nutrition Assistance Program (SNAP) is the largest federal nutrition assistance program. SNAP provides benefits to eligible low-income individuals and families via an Electronic Benefits Transfer card. This card can be used like a debit card to purchase eligible food in authorized retail food stores. [5]
+
+**Tract:** small, statistical subdivisions of a county used by the US Census to gather data. For our project, tract data was aggregated to be cumulative data sets of the entire county, rather than individual tracts.
+
 
 ## 3.1 Preprocessing for User-based Analysis
 The user dataset we extracted contained numeric data (“rating”, “age”) and categorical data (“country”). This made clustering the data more difficult because most unsupervised learning techniques handle only numeric data. The two methods we used to handle our mixed user dataset are Gower distance and one hot encoding.
