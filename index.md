@@ -97,23 +97,23 @@ There are many things we can do locally to take action towards solving food inse
 # About the Data
 Data and information is sourced from the 2010, 2015, and 2019 Food Access Research Atlas Data provided by the USDA Economic Research Service. 
 
-https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/
+<https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/>
 
 Data for the bump chart that outlined counties’ ranked food insecurity from the years 2018- 2021 is sourced from data provided by Feeding America.
 
-https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale
+<https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale>
 
 # Sources
-[1] https://www.feedingamerica.org/hunger-in-america/food-insecurity
+[1] <https://www.feedingamerica.org/hunger-in-america/food-insecurity>
 
-[2] https://www.feedingamerica.org/hunger-in-america/georgia
+[2] <https://www.feedingamerica.org/hunger-in-america/georgia>
 
-[3] https://frac.org/wp-content/uploads/hunger-is-a-health-issue-for-older-adults-1.pdf
+[3] <https://frac.org/wp-content/uploads/hunger-is-a-health-issue-for-older-adults-1.pdf>
 
-[4]https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-security-and-nutrition-assistance/#:~:text=Food%20insecurity%20rates%20are%20highest,and%20very%20low%20food%20security.
+[4] <https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-security-and-nutrition-assistance/#:~:text=Food%20insecurity%20rates%20are%20highest,and%20very%20low%20food%20security.>
 
-[5] https://www.benefits.gov/benefit/361 
+[5] <https://www.benefits.gov/benefit/361>
 
-[6] https://www.ers.usda.gov/webdocs/publications/45014/30940_err140.pdf
+[6] <https://www.ers.usda.gov/webdocs/publications/45014/30940_err140.pdf>
 
-[7] https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale
+[7] <https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale>
