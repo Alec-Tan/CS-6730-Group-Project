@@ -1,19 +1,3 @@
-
-<div style="margin:1em calc(70% - 50vw);">
-  <div class='tableauPlaceholder' id='viz1701475078774' style='position: relative'><noscript><a href='#'><img alt='Low Access Population by Race '
-                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;LowAccessPopulationbyRace&#47;1_rss.png'
-                    style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'>
-            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-            <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
-            <param name='name' value='Book2_17014750715760&#47;LowAccessPopulationbyRace' />
-            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;LowAccessPopulationbyRace&#47;1.png' />
-            <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
-            <param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' />
-  </object></div>                
-  <script type='text/javascript'>                    var divElement = document.getElementById('viz1701475078774');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-</div>
-
 # What is Food Insecurity 
 According to the USDA, food insecurity is defined as the “lack of consistent access to enough food for every person in a household to live an active, healthy life.” Food insecurity can be caused by several different life circumstances including poverty, illness, and systemic racism [1]. 
 
@@ -70,7 +54,20 @@ Living in a rural or urban area can greatly affect your proximity to a viable fo
 # Food Insecurity by Race
 Systemic racism is a big factor in the creation of communities with high levels of food insecurity. The following graph demonstrates food insecurity by race. Each dot is a county, and the x-axis shows the low access population of each race for a particular county. The size of the dot corresponds to the size of the total low access population of a county. As we expect, larger counties tend to have larger low access populations for each race; however, some counties, such as Cherokee county, have a large low access population for a particular race despite not having a large total low access population. This suggests that there is a disparity in food insecurity for certain races in certain counties.To compare the low access populations by race for a particular county, click on one of the dots, and the visualization will highlight all of the dots for that county.
 
-[INSERT GRAPH]
+<div style="margin:1em calc(70% - 50vw);">
+  <div class='tableauPlaceholder' id='viz1701475078774' style='position: relative'><noscript><a href='#'><img alt='Low Access Population by Race '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;LowAccessPopulationbyRace&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+            <param name='name' value='Book2_17014750715760&#47;LowAccessPopulationbyRace' />
+            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;LowAccessPopulationbyRace&#47;1.png' />
+            <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' />
+  </object></div>                
+  <script type='text/javascript'>                    var divElement = document.getElementById('viz1701475078774');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</div>
 
 # Food Insecurity in Seniors vs Children
 In addition to race, seniors and children experience high levels of food insecurity. Seniors in particular generally have limited finances and resources [3]. Children experience food insecurity at high rates, especially those situated in single mother households, which has one of the highest food insecurity rates [4]. The unit visualizations below show the number of kids and seniors in each county that face food insecurity issues. Each symbol represents 1000 people, and the counties are represented by color. The biggest takeaway from this graph is the sheer number of these more vulnerable groups, and especially children, that experience food insecurity. Again, we see the most densely populated counties experiencing extreme amounts of food insecurity, with Gwinnett alone having 93,063 children experiencing food insecurity issues. Generally speaking, the five most heavily populated counties again top the charts with cases for vulnerable groups, though not necessarily in the same order.
@@ -81,6 +78,22 @@ In addition to race, seniors and children experience high levels of food insecur
 **Does a county’s number of SNAP recipients and the poverty rate have any correlation?**
 
 Governmental assistance programs such as SNAP are a viable resource to provide people with greater access to food. The following scatterplot demonstrates poverty rate on the x axis, and allows for you to change the y axis to SNAP households in general, and SNAP households that are either 1 mile or 10 miles from a grocery store (these are two distance standards for food deserts for urban and rural areas respectively, as determined by the US Census). The scatterplots reveal that though there are many households that utilize SNAP in Georgia, there is not much correlation between poverty rate and SNAP usage or lack thereof, even for those living within the furthest measured distance from a grocery store (10 miles). 
+
+[INSERT GRAPH]
+
+# Close to Home: Metro ATL Counties Food Insecurity Ranking
+Now that we know more about the prevalence of food insecurity in Georgia, you may be overwhelmed by the question “There’s so much need across the state, how can we help?”. In order to put the need into a more tangible context, the bump chart below shows the counties where we are, in the Metro Atlanta area, ranked from 1-11, 1 being the most food insecure of the group, and 11 being the least, across 4 years from 2018-2021 [7]. Hover over each point to see the percentage of food insecurity in each county over the years. As we can see, food insecurity is an issue closer to us than it seems. So, what can we do about it?
+
+[INSERT GRAPH]
+
+There are many things we can do locally to take action towards solving food insecurity:
+
+-[Volunteer](https://www.acfb.org/volunteer/) at your local food bank. The Atlanta Community Food Bank serves these counties and more, and has several volunteer opportunities for you to get involved and make a difference in your local community.
+
+-Donate to organizations who are fighting hunger and food insecurity. 
+
+-Continue to raise awareness of food insecurity! Food insecurity affects people all across the country. The more informed we are about the issue, the better equipped we will be to solve it.
+
 
 
 ## 3.1 Preprocessing for User-based Analysis
