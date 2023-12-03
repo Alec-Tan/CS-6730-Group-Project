@@ -1,6 +1,3 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lZo73aYslGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-s
 
 <div style="margin:1em calc(70% - 50vw);">
   <div class='tableauPlaceholder' id='viz1701475078774' style='position: relative'><noscript><a href='#'><img alt='Low Access Population by Race '
@@ -17,16 +14,13 @@ s
   <script type='text/javascript'>                    var divElement = document.getElementById('viz1701475078774');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 </div>
 
-# 1. Introduction/Background
+# What is Food Insecurity 
+According to the USDA, food insecurity is defined as the “lack of consistent access to enough food for every person in a household to live an active, healthy life.” Food insecurity can be caused by several different life circumstances including poverty, illness, and systemic racism [1]. 
 
-Recommendation systems are programs that predict likely suitable matches to a user’s preferences. Content-based filtering and collaborative filtering are two of the major strategies employed. While content-based filtering recommends based on the similarity of products of consumer interest, collaborative filtering develops a recommendation based on the existing ratings of other previous consumers[1,2].
+# Why is it Important?
+Food insecurity is widespread across the United States, affecting more than 44 million people, 13 million of those being children [1]. In Georgia alone, 1 in 9 people face food insecurity [2]. Food insecurity deeply affects people’s daily lives, and prohibits the ability to live a full, healthy life. Because it is such a vast issue, it is also a difficult one to solve.
 
-There is a benefit to both the consumer and the seller with the use of recommendation systems[3]: The consumer is more satisfied with a purchase, a seller is more likely to sell an accurately recommended item and possibly build consumer loyalty[3].
-
-While there has been previous work in this area[4,5], the project goal is to include features of the book cover and determine if there is any correlation between the book’s first impression and user rating. 
-
-# 2. Problem Definition 
-This project aims to find impactful correlations between user ratings and features from a book’s cover image provided in the dataset (among other book features) and then build an improved book recommendation system. The system will have up to three permutations: using the informative features for content-based filtering, using similarity of user’s preferences (and users’ locations) for collaborative filtering, and a book cover Image based recommendation.
+![Number of Georgians that are food insecure](/images/num_insecure.png)
 
 # 3. Data Collection and Cleaning
 From the User Review Rating dataset from Kaggle [6], we were able to access the dataset containing 278,858 users providing 1,149,780 ratings for 271,379 books. Features include information about the book (title, author, year of publication, publisher, image of the book cover), information about the user (age, location), and ratings of the book.
