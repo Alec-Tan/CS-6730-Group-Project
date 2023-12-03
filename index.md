@@ -20,7 +20,7 @@ According to the USDA, food insecurity is defined as the “lack of consistent a
 # Why is it Important?
 Food insecurity is widespread across the United States, affecting more than 44 million people, 13 million of those being children [1]. In Georgia alone, 1 in 9 people face food insecurity [2]. Food insecurity deeply affects people’s daily lives, and prohibits the ability to live a full, healthy life. Because it is such a vast issue, it is also a difficult one to solve.
 
-![Number of Georgians that are food insecure](/images/num_insecure.png)
+<img src="/images/num_insecure.png" width="40%" height="40%">
 
 # 3. Data Collection and Cleaning
 From the User Review Rating dataset from Kaggle [6], we were able to access the dataset containing 278,858 users providing 1,149,780 ratings for 271,379 books. Features include information about the book (title, author, year of publication, publisher, image of the book cover), information about the user (age, location), and ratings of the book.
