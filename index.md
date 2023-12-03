@@ -4,7 +4,7 @@ According to the USDA, food insecurity is defined as the “lack of consistent a
 # Why is it Important?
 Food insecurity is widespread across the United States, affecting more than 44 million people, 13 million of those being children [1]. In Georgia alone, 1 in 9 people face food insecurity [2]. Food insecurity deeply affects people’s daily lives, and prohibits the ability to live a full, healthy life. Because it is such a vast issue, it is also a difficult one to solve.
 
-<img src="/images/num_insecure.png" width="40%">
+<img src="/images/num_insecure.png" width="40%" />
 
 ![image1](/images/num_insecure.png)
 
