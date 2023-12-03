@@ -4,9 +4,9 @@ According to the USDA, food insecurity is defined as the “lack of consistent a
 # Why is it Important?
 Food insecurity is widespread across the United States, affecting more than 44 million people, 13 million of those being children [1]. In Georgia alone, 1 in 9 people face food insecurity [2]. Food insecurity deeply affects people’s daily lives, and prohibits the ability to live a full, healthy life. Because it is such a vast issue, it is also a difficult one to solve.
 
-<img src="/images/num_insecure.png" width="40%" />
+<img src="images/num_insecure.png" width="80%" />
 
-![image1](/images/num_insecure.png)
+<!--- ![image1](/images/num_insecure.png) ---> 
 
 # How Can We Help?
 A key step to addressing the issue of food insecurity is raising awareness. This project aims to explore the issue of food insecurity here in Georgia, highlighting where there may be food deserts within the state. We aim to explore food insecurity in each county by different variables, demonstrating possible predictors of food insecurity. Our goal in doing so is to provide you with knowledge on this issue, so that we as a community can better advocate for reform and inform others about food insecurity in our own communities. 
@@ -36,9 +36,9 @@ The graph below outlines the counties in Georgia that can be identified as rural
 
 **Does living in a rural vs. urban area affect food insecurity in each county?**
 
-<img src="/images/num_rural_urban.png" width="50%">
+<img src="images/num_rural_urban.png" width="80%">
 
-![image2](/images/num_rural_urban.png)
+<!--- ![image2](/images/num_rural_urban.png) ---> 
 
 The graph below shows the percent of county populations that are low income and low access, two factors that determine food insecurity. Low access and low income are encoded by saturation of color (darker being higher percentages of low income/access, lighter being lower percentages). Rural and Urban are determined by specific colors (blue for rural and brown for urban).
 
