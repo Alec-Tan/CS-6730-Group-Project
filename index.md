@@ -105,9 +105,15 @@ https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale
 
 # Sources
 [1] https://www.feedingamerica.org/hunger-in-america/food-insecurity
+
 [2] https://www.feedingamerica.org/hunger-in-america/georgia
+
 [3] https://frac.org/wp-content/uploads/hunger-is-a-health-issue-for-older-adults-1.pdf
+
 [4]https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-security-and-nutrition-assistance/#:~:text=Food%20insecurity%20rates%20are%20highest,and%20very%20low%20food%20security.
+
 [5] https://www.benefits.gov/benefit/361 
+
 [6] https://www.ers.usda.gov/webdocs/publications/45014/30940_err140.pdf
+
 [7] https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale
