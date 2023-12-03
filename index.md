@@ -46,10 +46,10 @@ A key step to addressing the issue of food insecurity is raising awareness. This
 Georgia is made up of 159 counties. The counties can be differentiated as rural and urban. 
 The graph below outlines the counties in Georgia that can be identified as rural and urban. As you can see…
 
-[insert graph]
+[INSERT GRAPH]
 
+**Does living in a rural vs. urban area affect food insecurity in each county?**
 
-# Does living in a rural vs. urban area affect food insecurity in each county?
 <img src="/images/num_rural_urban.png" width="50%" height="50%">
 
 The graph below shows the percent of county populations that are low income and low access, two factors that determine food insecurity. Low access and low income are encoded by saturation of color (darker being higher percentages of low income/access, lighter being lower percentages). Rural and Urban are determined by specific colors (blue for rural and brown for urban).
@@ -58,7 +58,29 @@ Taliaferro County, a rural county east of Atlanta, has the highest percentage of
 
 [INSERT GRAPH]
 
+# Food Insecurity by Distance
 
+# Food Insecurity by Population Density
+Living in a rural or urban area can greatly affect your proximity to a viable food source. The Pareto chart below explores the question: **How does a county’s population/population density influence the likelihood that the county has food insecurity issues?** The histogram bins counties by their population density. The color saturation/heat map encodes the number of food insecurity in the county at 1 and 10 miles (these are Census identified mile markers for food deserts). The orange trend line shows the cumulative percentage of food insecurity cases across the state , and allows you to see which levels of  population density account for what percentage of food insecurity instances in the state. Looking at the graphs, we can see that there is a large distinction between population density in rural and urban areas. This gap indicates that areas in Georgia are either very sparsely populated or very heavily populated, with little existence of a middle ground. While you might expect that food insecurity is more present in sparsely populated areas, where people would theoretically be living further from grocery stores, the opposite is actually true. In fact ~38% of the food insecurity cases in Georgia exist in the 5 most densely populated counties: Fulton, Clayton, Gwinnett, Cobb, and DeKalb. When considering just counties that contain more urban census tracts than rural census tracts, their responsibility for food insecurity cases jumps to around 45%. 
+
+[INSERT GRAPH]
+
+# Food Insecurity by Vehicle Access
+
+# Food Insecurity by Race
+Systemic racism is a big factor in the creation of communities with high levels of food insecurity. The following graph demonstrates food insecurity by race. Each dot is a county, and the x-axis shows the low access population of each race for a particular county. The size of the dot corresponds to the size of the total low access population of a county. As we expect, larger counties tend to have larger low access populations for each race; however, some counties, such as Cherokee county, have a large low access population for a particular race despite not having a large total low access population. This suggests that there is a disparity in food insecurity for certain races in certain counties.To compare the low access populations by race for a particular county, click on one of the dots, and the visualization will highlight all of the dots for that county.
+
+[INSERT GRAPH]
+
+# Food Insecurity in Seniors vs Children
+In addition to race, seniors and children experience high levels of food insecurity. Seniors in particular generally have limited finances and resources [3]. Children experience food insecurity at high rates, especially those situated in single mother households, which has one of the highest food insecurity rates [4]. The unit visualizations below show the number of kids and seniors in each county that face food insecurity issues. Each symbol represents 1000 people, and the counties are represented by color. The biggest takeaway from this graph is the sheer number of these more vulnerable groups, and especially children, that experience food insecurity. Again, we see the most densely populated counties experiencing extreme amounts of food insecurity, with Gwinnett alone having 93,063 children experiencing food insecurity issues. Generally speaking, the five most heavily populated counties again top the charts with cases for vulnerable groups, though not necessarily in the same order.
+
+[INSERT GRAPH]
+
+# Food Insecurity by Governmental Benefits
+**Does a county’s number of SNAP recipients and the poverty rate have any correlation?**
+
+Governmental assistance programs such as SNAP are a viable resource to provide people with greater access to food. The following scatterplot demonstrates poverty rate on the x axis, and allows for you to change the y axis to SNAP households in general, and SNAP households that are either 1 mile or 10 miles from a grocery store (these are two distance standards for food deserts for urban and rural areas respectively, as determined by the US Census). The scatterplots reveal that though there are many households that utilize SNAP in Georgia, there is not much correlation between poverty rate and SNAP usage or lack thereof, even for those living within the furthest measured distance from a grocery store (10 miles). 
 
 
 ## 3.1 Preprocessing for User-based Analysis
