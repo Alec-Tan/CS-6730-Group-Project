@@ -70,10 +70,54 @@ Systemic racism can be a factor in the creation of communities with high levels 
         <div class='tableauPlaceholder' id='viz1701718366207' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book2_17014750715760&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1701718366207');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 </div>
 
+# Vulnerable Groups Experience High Levels of Food Insecurity 
+In addition to race, seniors and children experience high levels of food insecurity. Seniors in particular generally have limited finances and resources [3]. Children experience food insecurity at high rates, especially those situated in single mother households, which has one of the highest food insecurity rates [4]. The treemaps below show the number of kids and seniors in each county that face food insecurity issues.The biggest takeaway from this graph is the sheer number of these more vulnerable groups, and especially children, that experience food insecurity. Again, we see the most densely populated counties experiencing extreme amounts of food insecurity, with Gwinnett alone having 93,063 children experiencing food insecurity issues. Generally speaking, the five most heavily populated counties again top the charts with cases for vulnerable groups, though not necessarily in the same order. Additionally, a much higher proportion of food insecurity cases amongst kids are found in urban counties, while this distribution evens out slightly with the senior population.
 
+[INSERT GRAPHS]
 
+# Food Assistance Programs Are a Start to Solving Food Insecurity
+You may be wondering if there are any current solutions to this challenge that such a large number of people face daily. Governmental assistance programs such as SNAP are a viable resource to provide low income individuals and families with greater access to food. The following scatterplot demonstrates poverty rate on the x axis, and allows for you to change the y axis to SNAP households in general, and SNAP households that are either 1 mile or 10 miles from a grocery store (these are two distance standards for food deserts for urban and rural areas respectively, as determined by the US Census). The scatterplots reveal that though there are many households that utilize SNAP in Georgia, there is not much correlation between poverty rate and SNAP usage or lack thereof, even for those living within the furthest measured distance from a grocery store (10 miles). 
 
+[INSERT GRAPH]
 
+# Close to Home: How Much Food Insecurity is Present in The Counties We Live In?
+Now that we know more about the prevalence of food insecurity in Georgia, you may be overwhelmed by the question **“There’s so much need across the state, how can we help?”**. In order to put the need into a more tangible context, the bump chart below shows the counties where we are, in the Metro Atlanta area, ranked from 1-11, 1 being the most food insecure of the group, and 11 being the least, across 4 years from 2018-2021 [7]. Hover over each point to see the percentage of food insecurity in each county over the years. As we can see, food insecurity is an issue closer to us than it seems. So, what can we do about it?
+
+[INSERT GRAPH]
+
+There are many things we can do locally to take action towards solving food insecurity:
+
+-[Volunteer](https://www.acfb.org/volunteer/) at your local food bank. The Atlanta Community Food Bank serves these counties and more, and has several volunteer opportunities for you to get involved and make a difference in your local community.
+
+-Donate to organizations who are fighting hunger and food insecurity. 
+
+-Continue to raise awareness of food insecurity! Food insecurity affects people all across the country. The more informed we are about the issue, the better equipped we will be to solve it.
+
+# About the Data
+Data and information is sourced from the 2019 Food Access Research Atlas Data provided by the USDA Economic Research Service. The dataset divides data by Census tracts. For our project, tract data was aggregated by county. 
+
+<https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/>
+
+Data for the bump chart that outlined counties’ ranked food insecurity from the years 2018- 2021 is sourced from data provided by Feeding America.
+
+<https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale>
+
+# Sources
+[1] <https://www.feedingamerica.org/hunger-in-america/food-insecurity>
+
+[2] <https://www.feedingamerica.org/hunger-in-america/georgia>
+
+[3] <https://frac.org/wp-content/uploads/hunger-is-a-health-issue-for-older-adults-1.pdf>
+
+[4] <https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-security-and-nutrition-assistance/#:~:text=Food%20insecurity%20rates%20are%20highest,and%20very%20low%20food%20security.>
+
+[5] <https://www.benefits.gov/benefit/361>
+
+[6] <https://www.ers.usda.gov/webdocs/publications/45014/30940_err140.pdf>
+
+[7] <https://map.feedingamerica.org/county/2021/overall/georgia/county/rockdale>
+
+[8] <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6369228/#:~:text=Access%20to%20a%20personal%20vehicle%20was%20associated%20with%20significantly%20lower,associations%20with%20diet%20or%20exercise>
 
 
 # Food Insecurity by County
