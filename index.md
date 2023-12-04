@@ -1,4 +1,4 @@
-# What is Food Insecurity 
+# What is Food Insecurity? 
 According to the USDA, food insecurity is defined as the “lack of consistent access to enough food for every person in a household to live an active, healthy life.” Food insecurity can be caused by several different life circumstances including poverty, illness, and systemic racism [1]. 
 
 # Why is it Important?
@@ -14,7 +14,7 @@ Food insecurity is widespread across the United States, affecting more than 44 m
 A key step to addressing the issue of food insecurity is raising awareness. This project aims to explore the issue of food insecurity here in Georgia, highlighting where there may be food deserts within the state. We aim to explore food insecurity in each county by different variables, demonstrating possible predictors of food insecurity. Our goal in doing so is to provide you with knowledge on this issue, so that we as a community can better advocate for reform and inform others about food insecurity in our own communities. 
 
 # Terminology to Know
-**Low-Access:** In this dataset, food access can be defined by  the distance to the nearest supermarket, supercenter, or large grocery store. For urban counties, we consider individuals who live more than 1 mile away from the nearest supermarket or grocery store as food insecure. For rural counties, where population density is intrinsically lower and grocery stores are fewer, individuals are considered to be food insecure if they live greater than 10 miles from the nearest food source.  
+**Low-Access:** In this dataset, food access can be defined by  the distance to the nearest supermarket, supercenter, or large grocery store. For urban counties, we consider individuals who live more than 1 mile away from the nearest supermarket or grocery store as food insecure. For rural counties, where population density is intrinsically lower and grocery stores are fewer, individuals are considered to be food insecure if they live greater than 10 miles from the nearest food source.
 
 **Low-Income:** Low-income counties, as defined by the Department of Treasury’s New Markets Tax Credit (NMTC) program, are those where the poverty rate is 20% or greater, the median family income of the county is less than 80% of the state’s median family income, or the tract is in a metropolitan area and the median family income is less than 80% of the greater metropolitan median family income. 
 
@@ -28,7 +28,22 @@ A key step to addressing the issue of food insecurity is raising awareness. This
 
 **SNAP:** Supplemental Nutrition Assistance Program (SNAP) is the largest federal nutrition assistance program. SNAP provides benefits to eligible low-income individuals and families via an Electronic Benefits Transfer card. This card can be used like a debit card to purchase eligible food in authorized retail food stores. [5]
 
-**Tract:** small, statistical subdivisions of a county used by the US Census to gather data. For our project, tract data was aggregated to be cumulative data sets of the entire county, rather than individual tracts.
+# The Counties of Georgia
+
+Georgia is made up of 159 counties. The counties can be differentiated as rural and urban. 
+
+<p align="center">
+        <img src="images/num_rural_urban.png" width="80%">
+</p>
+# In 14 Counties in Georgia, at Least 1 in 4 People Face Food Insecurity (Low Income and Low Access). 
+
+The graph below shows the percent of county populations that are low income and low access, two factors that determine food insecurity. Low access and low income are encoded by a blue gradient (darker blue being higher percentages of low income/access, lighter being lower percentages). Urban counties are denoted by the presence of a dot; rural counties do not have a dot. Living in a rural versus urban area can greatly affect your proximity to viable food sources. 
+
+Across Georgia, there are 14 counties where the rate of food insecurity (low income/low access) exceeds 25% (1 in 4 people). Among these 14 counties, 11 are urban and 3 are rural. Furthermore, all urban counties have at least 8% food insecurity. These trends indicate that urban residents are more likely to face food insecurity. 
+
+Taliaferro County, a rural county east of Atlanta, has the highest percentage of food insecurity in the state. Among its 1,717 residents, 47.43% are low income and have low access to food. Chattahoochee County, an urban county southeast of Columbus, has the second highest percentage of food insecurity, as 39.34% of its 11,267 residents are low income and have low access to food.
+
+[INSERT GRAPH]
 
 # Food Insecurity by County
 Georgia is made up of 159 counties. The counties can be differentiated as rural and urban. 
@@ -38,9 +53,7 @@ The graph below outlines the counties in Georgia that can be identified as rural
 
 **Does living in a rural vs. urban area affect food insecurity in each county?**
 
-<p align="center">
-        <img src="images/num_rural_urban.png" width="80%">
-</p>
+
 
 <!--- ![image2](/images/num_rural_urban.png) ---> 
 
