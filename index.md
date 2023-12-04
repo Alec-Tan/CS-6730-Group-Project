@@ -36,6 +36,8 @@ Georgia is made up of 159 counties. The counties can be differentiated as rural 
         <img src="images/num_rural_urban.png" width="80%">
 </p>
 
+&nbsp;
+
 # In 14 Counties in Georgia, at Least 1 in 4 People Face Food Insecurity (Low Income and Low Access). 
 
 The graph below shows the percent of county populations that are low income and low access, two factors that determine food insecurity. Low access and low income are encoded by a blue gradient (darker blue being higher percentages of low income/access, lighter being lower percentages). Urban counties are denoted by the presence of a dot; rural counties do not have a dot. Living in a rural versus urban area can greatly affect your proximity to viable food sources. 
