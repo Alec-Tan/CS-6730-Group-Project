@@ -35,6 +35,7 @@ Georgia is made up of 159 counties. The counties can be differentiated as rural 
 <p align="center">
         <img src="images/num_rural_urban.png" width="80%">
 </p>
+
 # In 14 Counties in Georgia, at Least 1 in 4 People Face Food Insecurity (Low Income and Low Access). 
 
 The graph below shows the percent of county populations that are low income and low access, two factors that determine food insecurity. Low access and low income are encoded by a blue gradient (darker blue being higher percentages of low income/access, lighter being lower percentages). Urban counties are denoted by the presence of a dot; rural counties do not have a dot. Living in a rural versus urban area can greatly affect your proximity to viable food sources. 
@@ -44,6 +45,36 @@ Across Georgia, there are 14 counties where the rate of food insecurity (low inc
 Taliaferro County, a rural county east of Atlanta, has the highest percentage of food insecurity in the state. Among its 1,717 residents, 47.43% are low income and have low access to food. Chattahoochee County, an urban county southeast of Columbus, has the second highest percentage of food insecurity, as 39.34% of its 11,267 residents are low income and have low access to food.
 
 [INSERT GRAPH]
+
+# How Far Does Food Insecurity Travel? 
+The previous map considers individuals as food insecure if they are located greater than a mile from the nearest grocery store in urban counties, and greater than 10 miles for rural counties. **But how does food insecurity change across distances in all counties?**
+
+The parallel coordinates below explores this question, displaying the overall trends in food insecurity across distance for all Georgia counties. Most counties, both urban and rural,  follow a similar pattern with food insecurity (low income/low access) rates decreasing slightly between half a mile and one mile, and significantly dropping off at 10 miles. All urban counties have food insecurity rates at or around 0% at 10 miles. However, many rural counties have much higher rates at 10 miles. We see again that Taliaferro county has the highest percentage of food insecurity at both the 1 mile distance marker and 10 mile distance marker. However, it is actually Atkinson county, a rural county in southern Georgia, that has the highest food insecurity rate at the half mile marker. 
+
+[INSERT GRAPH]
+
+# Food Insecurity Impacts Even Densely Populated Regions
+In addition to just living in either a rural or urban area, the population density of a location can greatly affect the food resources available to residents of an area. The Pareto chart below explores the question: **How does a county’s population/population density influence the likelihood that the county has food insecurity issues?** The histogram groups counties by their population density. The color saturation/heat map encodes the number of food insecurity in the county at 1 and 10 miles (these are Census identified mile markers for food deserts). The orange trend line shows the cumulative percentage of food insecurity cases across the state , and allows you to see which levels of  population density account for what percentage of food insecurity instances in the state. Looking at the graphs, we can see that there is a large distinction between population density in rural and urban areas. This gap indicates that areas in Georgia are either very sparsely populated or very heavily populated, with little existence of a middle ground. While you might expect that food insecurity is more present in sparsely populated areas, where people would theoretically be living further from grocery stores, the opposite is actually true. In fact ~38% of the food insecurity cases in Georgia exist in the 5 most densely populated counties: Fulton, Clayton, Gwinnett, Cobb, and DeKalb. When considering just counties that contain more urban census tracts than rural census tracts, their responsibility for food insecurity cases jumps to around 45%. 
+
+[INSERT GRAPHS]
+
+# Access to Cars May Also Mean Access to Food
+Personal vehicle access is associated with a lower risk of food insecurity, serving as a significant factor in easily accessing healthy foods [8]. Particularly in regions with food deserts, understanding the relationship between the number of housing units per county with no vehicle access and the number of people in the county considered to be low access, is a part of fully recognizing the impacts of food insecurity. The scatterplot below thus seeks to answer the question: Is there a relationship between a county’s number of housing units with no vehicle access and the number of individuals considered low access? This scatterplot shows this relationship divided by Urban and Rural counties. The color of each point is determined by the poverty rate in each county, with darker colors indicating higher poverty. When filtered to show Urban counties, it is clear that there is a slight positive correlation between individuals considered low access and the number of housing units with no vehicle access. Fulton County, in particular, has a high low access population and high number of housing units with no vehicle access. However, the poverty rate remains at 15.6%. With rural counties, there is no clear correlation. 
+
+[INSERT GRAPH]
+
+# Does Race Play a Role in Food Insecurity? 
+Systemic racism can be a factor in the creation of communities with high levels of food insecurity. The following graph demonstrates food insecurity by race. Each dot is a county, and the x-axis shows the low access population of each race for a particular county. The size of the dot corresponds to the size of the total low access population of a county. As we expect, larger counties tend to have larger low access populations for each race; however, some counties, such as Cherokee county, have a large low access population for a particular race despite not having a large total low access population. This suggests that there is a disparity in food insecurity for certain races in certain counties.To compare the low access populations by race for a particular county, click on one of the dots, and the visualization will highlight all of the dots for that county.
+
+<div style="margin:1em calc(50% - 50vw);" align="center">
+        <div class='tableauPlaceholder' id='viz1701718366207' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book2_17014750715760&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book2_17014750715760&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1701718366207');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</div>
+
+
+
+
+
+
 
 # Food Insecurity by County
 Georgia is made up of 159 counties. The counties can be differentiated as rural and urban. 
