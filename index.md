@@ -28,6 +28,8 @@ A key step to addressing the issue of food insecurity is raising awareness. This
 
 **SNAP:** Supplemental Nutrition Assistance Program (SNAP) is the largest federal nutrition assistance program. SNAP provides benefits to eligible low-income individuals and families via an Electronic Benefits Transfer card. This card can be used like a debit card to purchase eligible food in authorized retail food stores. [5]
 
+**Tract:** Small, relatively permanent statistical subdivisions of a county or statistically equivalent entity that can be updated by local participants prior to each decennial census as part of the Census.
+
 # The Counties of Georgia
 
 Georgia is made up of 159 counties. The counties can be differentiated as rural and urban. 
